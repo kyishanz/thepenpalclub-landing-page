@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background: #F1F8EE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+div.all {
+    
+    display: flex;
+
+}
+
+img#logo {
+    margin: 50px;
+    object-fit: contain;
+    width: 240px;
+    height: 84px;
+}
+
+div.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button.navbar {
+    border: 0;
+    margin: 20px;
+    font-family: 'SF Pro Display', 'Helvetica Neue';
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 0.21em;
+    cursor: pointer;
+}
